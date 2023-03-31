@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Adventure</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">Adventure</h1>
+            <ul class="nav-link">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="menu-button-of-three-horizontal-lines.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colourful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header>
+
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="57758909cea47bbbf647fe877a5a6d15.jpg" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="4f56f664b20326087848618a912d78b1.jpg" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+            <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="9c5e07daef00ce7939dc9162b4a92a6a.jpg" alt="">
+                        <img src="51a034afa9f201bd4406c3d444673647.jpg" alt="">
+                        <img src="447fd10758959dd31011dbb19575b833.jpg" alt="">
+                        <img src="3c3a3a7d4f6685636e36f1ca4b81799e.jpg" alt="">
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>sanjeevan ashram, dhole-patil road, Pune, India | Phone: 7498241104 | Email: vaibhavijadhav1212@gmail.com</p>
+            <p>Copyright © 2023 Adventure, Inc. All Rights Reserved</p>
+        </section>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlink = document.querySelector('.nav-link')
+
+            menuBtn.addEventListener('click' ,()=>{
+                navlink.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
